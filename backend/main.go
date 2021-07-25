@@ -19,4 +19,6 @@ func main() {
 	sugar := logger.Sugar()
 
 	sugar.Infof("%s (%s) is initializing...", prog, ver)
+
+	runner(*sugar)
 }
